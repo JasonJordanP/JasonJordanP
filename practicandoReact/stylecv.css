@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,600&display=swap');
+body{
+    background-image: url(img/profesional.png);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 1em;
+}   
+
+h2{
+  font-family:'Great Vibes', cursive;
+  font-size: 4em;
+  color: rgb(158,118,0);
+  padding: 20px 1em 5px 1em;
+}
+.container-mayor {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: flex-end;
+  }
+  
+#cont1{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin: 4px;
+  padding: 8px;
+}
+#cont2 {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin: 4px;
+  padding: 8px;
+  border: 2px solid rgb(181,147,46);
+  border-radius: 10px;
+  width: 30em;
+  font-family: 'Alegreya', serif;
+  color:rgb(181,147,46);
+  background-color: rgb(2,4,6);
+  font-size: larger;
+  font-weight: 500;
+}
+  
+  
+  p{
+    font-family: 'Alegreya', serif;
+    color: rgb(181,147,46);
+    font-size: xx-large;
+  }
+  #p2{
+    font-family: 'Alegreya', serif;
+    color: rgb(158,118,0);
+    font-size: large;
+  }
+  
+  .botones {
+    font-family: 'Alegreya', serif;
+  }
+  button{
+    background-color: goldenrod;
+    inline-size: 10em;
+    font-size: x-large;
+    border-radius: 10px;
+    border-color: gold;
+    margin-top: 20px;
+    margin-left: 6em;
+    
+    
+  }
+.card{
+  display: block;
+  position:fixed;
+  top: 14em;
+  right: 0;
+  bottom: 3em;
+  left: 43em;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-items: right;
+  order: 0;
+  margin: 0px;
+  padding: 0px;
+  width: 20em;
+  height: 11em;
+  font-family: 'Alegreya', serif;
+  background-color: rgb(222,227,230);
+  color: rgb(158,118,0);
+  transform: rotate(1deg);
+}
+.row {
+  align-items: flex-start;
+}
+p#p2.card-text{
+  margin: 5px;
+}
+div.card{
+  border: 0px;
+  padding-bottom: 0px;
+}
