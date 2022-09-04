@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-image: url(img/engranes.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+}
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+h1 {
+    font-size: 4em;   /* 2em = 2 x 10px = 20px */
+    font-family:'Great Vibes', cursive;
+    color: rgb(218, 164, 3);
+    padding: 20px 1em 5px 1em;
+    text-align: center;
+    font-weight: 400px;
+}
+
+input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: rgb(220,220,209) !important;
+    margin-inline-start: 50%;
+}
+textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color: rgb(220,220,209) !important;
+    margin-inline-start: 50%;
+    margin-top: 15px;
+}
+
+button {
+    size: 1em;
+    background-color: gold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border: 2px;
+    border-radius: 10px;
+    width: 6em;
+    height: 3em;
+    color: rgb(128, 96, 3);
+    margin-inline-start: 47%;
+}
+label {
+    font-size: larger;
+    color: rgb(219, 166, 7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-inline-start: 50%;
+
+}

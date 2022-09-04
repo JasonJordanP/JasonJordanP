@@ -32,7 +32,7 @@ h2{
   align-self: auto;
   order: 0;
   margin: 4px;
-  padding: 8px;
+  padding: 10px;
 }
 #cont2 {
   display: block;
@@ -52,8 +52,6 @@ h2{
   font-size: larger;
   font-weight: 500;
 }
-  
-  
   p{
     font-family: 'Alegreya', serif;
     color: rgb(181,147,46);
@@ -93,7 +91,7 @@ h2{
   order: 0;
   margin: 0px;
   padding: 0px;
-  width: 20em;
+  width: 17em;
   height: 11em;
   font-family: 'Alegreya', serif;
   background-color: rgb(222,227,230);
@@ -109,4 +107,7 @@ p#p2.card-text{
 div.card{
   border: 0px;
   padding-bottom: 0px;
+}
+div#cont2.container-items {
+  padding: 20px;
 }
