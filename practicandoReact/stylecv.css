@@ -41,8 +41,9 @@ h2{
   flex-basis: auto;
   align-self: auto;
   order: 0;
-  margin: 4px;
-  padding: 8px;
+  margin: 1em;
+  margin-left: 0em;
+  padding: 4em;
   border: 2px solid rgb(181,147,46);
   border-radius: 10px;
   width: 30em;
@@ -72,18 +73,16 @@ h2{
     font-size: x-large;
     border-radius: 10px;
     border-color: gold;
-    margin-top: 20px;
+    margin-top: 1em;
     margin-left: 6em;
-    
-    
   }
 .card{
-  display: block;
+  display: flex;
   position:fixed;
   top: 14em;
   right: 0;
   bottom: 3em;
-  left: 43em;
+  left: 42em;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -91,7 +90,7 @@ h2{
   order: 0;
   margin: 0px;
   padding: 0px;
-  width: 17em;
+  width: 22em;
   height: 11em;
   font-family: 'Alegreya', serif;
   background-color: rgb(222,227,230);
@@ -102,12 +101,28 @@ h2{
   align-items: flex-start;
 }
 p#p2.card-text{
-  margin: 5px;
+  margin: 2%;
+  font-size: x-large;
 }
 div.card{
   border: 0px;
   padding-bottom: 0px;
 }
+div.card-body{
+  padding-right: 0%;
+  padding-left: 2%;
+}
 div#cont2.container-items {
-  padding: 20px;
+  padding: 3%;
+  text-align: justify;
+  color: rgb(235, 179, 37);
+}
+h3 {
+  font-family:'Great Vibes', cursive;
+  font-size: 2em;
+  color: black;
+  font-weight: 600;
+}
+i {
+  margin-right: 2%; 
 }
