@@ -50,8 +50,13 @@ button {
     width: 6em;
     height: 2em;
     color: black;
-    margin-inline-start: 47%; 
-  }
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 label {
     font-size: larger;
     color: rgb(219, 166, 7);

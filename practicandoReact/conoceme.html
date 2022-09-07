@@ -17,26 +17,34 @@
     <section class="form">
         <div class="col-sm-6">
             <label for="nombre" class="form-label">Nombre</label>
-            <input class="form-control form-control-lg" type="text" name="nombres" id="nombre" placeholder="Ingrese su nombre">
+            <input class="form-control form-control-lg" type="text" name="nombres" id="nombre" placeholder="Ingrese su nombre" required>
         </div>
         <br>
         <div class="col-sm-6">
             <label for="apellidos" class="form-label">Apellidos</label>
-            <input class="form-control form-control-lg" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
+            <input class="form-control form-control-lg" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos" required>
         </div>
         <br>
         <div class="col-sm-6">
             <label for="mail" class="form-label">Correo Electrónico</label>
-            <input class="form-control form-control-lg" type="email" name="mail" id="mail" placeholder="Ingrese su correo electrónico">
+            <input class="form-control form-control-lg" type="email" name="mail" id="mail" placeholder="Ingrese su correo electrónico" required>
         </div>
         <br>
         <div class="col-sm-6">
             <textarea class="form-control form-control-lg" id="textarea" rows="4" placeholder="Deje su mensaje"></textarea>
         </div>
         <br>
-        <button onclick="alert('Gracias por contactarse, me comunicaré con usted a la brevedad.');">
-            Enviar
-          </button>
+        
+        <div class="container container-fluid">
+            <div class="d-grid gap-2 d-inline-block">
+                <form method="get" action="/practicandoReact/jordanperez.html">
+                <button type="button" value="Volver" id="boton2">Volver</button>
+                    <script src="" async defer></script>
+                <button onclick="alert('Gracias por contactarse, me comunicaré con usted a la brevedad.')" id="boton1">Enviar</button>  
+            </div>
+        </div>    
+        
+        
     </section>
 </body>
 </html>
